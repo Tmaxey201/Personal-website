@@ -85,3 +85,11 @@ function fadeMyDiv3() {
 setTimeout(function(){
   $('#fade4').fadeIn(3000);  
 }, 17000);
+
+setTimeout(function(){
+  $('#fade5').fadeIn(3000);  
+}, 18750);
+
+setTimeout(function(){
+  $('#fade6').fadeIn(3000);  
+}, 20500);

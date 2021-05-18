@@ -1,10 +1,24 @@
+:root {
+    --backgroundSize: 1500px;
+}
+
+
 *{
     font-family: 'Montserrat', sans-serif;
-    color: black;
+    color: #191a1e;
  }
  html, body {
     height: 100%;
+   
   }
+
+.backgroundimg{
+    background-image: url(images/white.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: var(--backgroundSize);
+    animation: movingBackground 7s linear infinite;
+}
 .lang1{
     margin-top: .1em;
 }
@@ -29,7 +43,7 @@
     position: fixed;
     top: 50%;
     left: 32px;
-    color: rgba(0, 0, 0, 0.777);
+    color: #191a1e;
     ;
  }
  .iconfloat2{
@@ -95,7 +109,7 @@
 .endless {
     position: fixed;
     top: 40%;
-    right: 40%;
+    right: 45%;
 }
 .endless1 {
     position: fixed;
@@ -110,7 +124,7 @@
 .endless3 {
     position: fixed;
     top: 40%;
-    right: 40%;
+    right: 45%;
 }
 .endless4 {
     font-weight: 900;
@@ -118,7 +132,42 @@
     top: 45%;
     right: 40%;
     font-size: x-large;
+  
 }
-#fade1, #fade2, #fade3, #fade4{
+.endless5 {
+    font-weight: 900;
+    position: fixed;
+    top: 50%;
+    right: 40%;
+    font-size: x-large;
+  
+}
+.endless6 {
+    font-weight: 900;
+    position: fixed;
+    top: 55%;
+    right: 40%;
+    font-size: x-large;
+    
+    
+}
+
+
+#fade1, #fade2, #fade3, #fade4, #fade5, #fade6{
 display: none;
+}
+
+.model {
+    width: clamp(50vw, 50vh, 90vw);
+    height: 50vh;
+    display: grid;
+    place-items: center;
+    border-radius: 8px;
+
+
+}
+
+@keyframes movingBackground {
+    from { background-position: 0 0;}
+    to {background-position: var(--backgroundSize) var(--backgroundSize);}
 }
