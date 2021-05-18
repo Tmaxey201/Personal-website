@@ -1,0 +1,124 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+ }
+ html, body {
+    height: 100%;
+  }
+.lang1{
+    margin-top: .1em;
+}
+.lang{
+    padding-right: .4em;
+    font-size: x-large;
+    font-weight: 700;
+   
+}
+
+#navbar{
+    overflow: hidden;
+}
+
+.iconfloat{
+   position: fixed;
+   top: 45%;
+   left: 32px;
+   color: rgba(0, 0, 0, 0.777);
+}
+.iconfloat1{
+    position: fixed;
+    top: 50%;
+    left: 32px;
+    color: rgba(0, 0, 0, 0.777);
+    ;
+ }
+ .iconfloat2{
+    position: fixed;
+    top: 55%;
+    left: 32px;
+    color: rgba(0, 0, 0, 0.777);
+ }
+
+.lang:hover{
+    padding-right: .4em;
+    font-size: x-large;
+    text-shadow: 1px 0 #888888;
+    font-weight:bold;
+}
+
+.langright{
+    
+    margin-right: .4em;
+}
+.namelogo {
+   font-weight: 700;
+  
+}
+
+.parallax-container {
+    background-position: 50% 210px !important;
+    height:3200px; 
+  }
+
+.no-shadows {
+    box-shadow: none!important;
+}
+
+.header {
+    padding: 1em;
+    font-size: xx-large;
+    
+    z-index: 200
+  }
+  
+  .img1{
+    width: 200px  ;
+  }
+
+  .content {
+    padding: 16px;
+  }
+   
+  
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+   
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+  
+.endless {
+    position: fixed;
+    top: 40%;
+    right: 40%;
+}
+.endless1 {
+    position: fixed;
+    top: 50%;
+    right: 60%;
+}
+.endless2 {
+    position: fixed;
+    top: 30%;
+    right: 30%;
+}
+.endless3 {
+    position: fixed;
+    top: 40%;
+    right: 40%;
+}
+.endless4 {
+    font-weight: 900;
+    position: fixed;
+    top: 45%;
+    right: 40%;
+    font-size: x-large;
+}
+#fade1, #fade2, #fade3, #fade4{
+display: none;
+}
