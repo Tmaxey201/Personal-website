@@ -37,20 +37,20 @@
    position: fixed;
    top: 45%;
    left: 32px;
-   color: rgba(0, 0, 0, 0.777);
+   color: #191a1ed7;
 }
 .iconfloat1{
     position: fixed;
     top: 50%;
     left: 32px;
-    color: #191a1e;
+    color: #191a1ed7;
     ;
  }
  .iconfloat2{
     position: fixed;
     top: 55%;
     left: 32px;
-    color: rgba(0, 0, 0, 0.777);
+    color:  #191a1ed7;
  }
 
 .lang:hover{
@@ -130,7 +130,7 @@
     font-weight: 900;
     position: fixed;
     top: 45%;
-    right: 40%;
+    right: 55%;
     font-size: x-large;
   
 }
@@ -138,7 +138,7 @@
     font-weight: 900;
     position: fixed;
     top: 50%;
-    right: 40%;
+    right: 55%;
     font-size: x-large;
   
 }
@@ -146,7 +146,7 @@
     font-weight: 900;
     position: fixed;
     top: 55%;
-    right: 40%;
+    right: 55%;
     font-size: x-large;
     
     
@@ -157,15 +157,7 @@
 display: none;
 }
 
-.model {
-    width: clamp(50vw, 50vh, 90vw);
-    height: 50vh;
-    display: grid;
-    place-items: center;
-    border-radius: 8px;
 
-
-}
 
 @keyframes movingBackground {
     from { background-position: 0 0;}
