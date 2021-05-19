@@ -189,13 +189,58 @@ display: none;
 
 .showcase{
     
-  width: 50vw;
-  height: 80vh;
-    background: black;
+  width: 100%;
+  height: 70vh;
+    background: #191a1e;
     border-radius: 3px;
     
 }
 
+
+
+img {
+    height: 44vh;
+    width: auto;
+   
+    margin: 45px 45px 45px 50px;
+}
+
+.innertitle{
+   margin: 25px;
+  
+}
+
+.titlecontent {
+    font-weight: 500;
+}
+
+.titlecontent:hover {
+    font-weight: 900;
+    cursor: pointer;
+}
+
+
+
+.aboutmetext{
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    margin: 50px 50px 50px 0px;
+    text-align: left;
+    line-height: 2;
+}
+.spangold {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(235, 174, 22)
+}
+.aboutmetitle {
+    text-align: left;
+    margin-top: 40px;
+    font-weight: 500;
+}
+
+.boxx {
+    margin: 30px;
+}
 
 /* background animation */
 

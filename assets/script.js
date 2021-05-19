@@ -111,6 +111,6 @@ $(function() {
 
 $(function(){
   $(".clickable").click(function(){
-  $('#fade8').fadeIn(2000); 
+  $('#fade8').fadeIn(1000); 
  });
 });
