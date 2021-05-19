@@ -6,6 +6,8 @@
 *{
     font-family: 'Montserrat', sans-serif;
     color: #191a1e;
+    margin: 0;
+    padding: 0;
  }
  html, body {
     height: 100%;
@@ -96,7 +98,7 @@
   }
    
   
-.sticky {
+/* .sticky {
     position: fixed;
     top: 0;
     width: 100%
@@ -105,7 +107,7 @@
   
   .sticky + .content {
     padding-top: 102px;
-  }
+  } */
 
   
 .endless {
@@ -154,18 +156,83 @@
     height: 55px;
     border: none;
     background-color: #191a1e;
-    border-radius: 50%;
-    
+     border-radius: 3% 3% 3% 3%;
+    margin-top: 20px;  
 }
+
+.endless7:hover {
+   
+    position: fixed;
+    top: 60.8%;
+    width: 55px;
+    height: 55px;
+    border: none;
+    background-color: #191a1e;
+     border-radius: 3% 3% 3% 3%;
+    margin-top: 20px; 
+    transition: .3s; 
+    cursor: pointer;
+}
+
+.btn:active{
+    background-color: #191a1e;
+  }
+
 
 #fade1, #fade2, #fade3, #fade4, #fade5, #fade6, #fade7{
 display: none;
 }
 
 
+/* background animation */
 
 @keyframes movingBackground {
     from { background-position: 0 0;}
     to {background-position: var(--backgroundSize) var(--backgroundSize);}
 }
 
+
+
+
+/* LOADING PAGE ANIMATION IN THE WORKS */
+
+/* .loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.loader div {
+    width: 100%;
+    height: 100%;
+    background: #191a1e;
+    transform: scaleY(0);
+    animation: animate 1.5s ease ;
+} */
+
+
+
+
+/* @keyframes animate
+{
+
+    0%{
+        transform-origin: top;
+        transform: scaleY(0);
+    }
+    25%{
+        transform-origin: top;
+        transform: scaleY(1);
+    }
+    75%{
+        transform-origin: bottom;
+        transform: scaleY(1);
+    }
+    100%{
+        transform-origin: bottom;
+        transform: scaleY(1);
+    }
+} */

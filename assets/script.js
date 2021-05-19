@@ -97,3 +97,5 @@ setTimeout(function(){
 setTimeout(function(){
   $('#fade7').fadeIn(3000);  
 }, 22000);
+
+// onclick transition 
