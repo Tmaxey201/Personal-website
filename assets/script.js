@@ -75,7 +75,7 @@ setTimeout(function(){
 }, 12500);
 
 $(document).ready(function() {
-  window.setTimeout("fadeMyDiv3();", 15000); //call fade in 3 seconds
+  window.setTimeout("fadeMyDiv3();", 14500); //call fade in 3 seconds
 }
 )
 
@@ -93,3 +93,7 @@ setTimeout(function(){
 setTimeout(function(){
   $('#fade6').fadeIn(3000);  
 }, 20500);
+
+setTimeout(function(){
+  $('#fade7').fadeIn(3000);  
+}, 22000);

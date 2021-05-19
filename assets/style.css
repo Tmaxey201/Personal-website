@@ -24,10 +24,11 @@
 }
 .lang{
     padding-right: .4em;
-    font-size: x-large;
+    font-size: large;
     font-weight: 700;
    
 }
+
 
 #navbar{
     overflow: hidden;
@@ -52,6 +53,7 @@
     left: 32px;
     color:  #191a1ed7;
  }
+ 
 
 .lang:hover{
     padding-right: .4em;
@@ -130,30 +132,33 @@
     font-weight: 900;
     position: fixed;
     top: 45%;
-    right: 55%;
     font-size: x-large;
-  
 }
 .endless5 {
     font-weight: 900;
     position: fixed;
     top: 50%;
-    right: 55%;
     font-size: x-large;
-  
 }
 .endless6 {
     font-weight: 900;
     position: fixed;
     top: 55%;
-    right: 55%;
     font-size: x-large;
-    
+}
+.endless7 {
+   
+    position: fixed;
+    top: 60%;
+    width: 55px;
+    height: 55px;
+    border: none;
+    background-color: #191a1e;
+    border-radius: 50%;
     
 }
 
-
-#fade1, #fade2, #fade3, #fade4, #fade5, #fade6{
+#fade1, #fade2, #fade3, #fade4, #fade5, #fade6, #fade7{
 display: none;
 }
 
@@ -163,3 +168,4 @@ display: none;
     from { background-position: 0 0;}
     to {background-position: var(--backgroundSize) var(--backgroundSize);}
 }
+
