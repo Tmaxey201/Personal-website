@@ -22,9 +22,6 @@ function myFunction() {
   }
 }
 
-$(document).ready(function(){
-  $('.carousel').carousel();
-});
 
 // function to fade in and fade out divs 
 $(document).ready(function() {
@@ -95,7 +92,25 @@ setTimeout(function(){
 }, 20500);
 
 setTimeout(function(){
-  $('#fade7').fadeIn(3000);  
+  $('#fade7').fadeIn(1500);  
 }, 22000);
 
 // onclick transition 
+// $(function() {                       //run when the DOM is ready
+//   $(".clickable").click(function() {  //use a class, since your ID gets mangled
+//     $('#fade4').parent().addClass("hideme");      //add the class to the clicked element
+//   });
+// });
+
+
+$(function() {                       
+  $(".clickable").click(function() {  
+    $('#fade4').parent().fadeOut(1500); 
+     });
+});
+
+$(function(){
+  $(".clickable").click(function(){
+  $('#fade8').fadeIn(2000); 
+ });
+});
