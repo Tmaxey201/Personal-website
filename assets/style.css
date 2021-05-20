@@ -1,7 +1,7 @@
 :root {
     --backgroundSize: 1500px;
+    font-weight: 700;
 }
-
 
 *{
     font-family: 'Montserrat', sans-serif;
@@ -42,20 +42,43 @@
    position: fixed;
    top: 45%;
    left: 32px;
-   color: #191a1ed7;
+  
+   
 }
+.iconfloat:hover{
+    position: fixed;
+    top: 45%;
+    left: 32px;
+   color: goldenrod;
+    
+    cursor: pointer;
+ }
+ 
 .iconfloat1{
     position: fixed;
     top: 50%;
     left: 32px;
-    color: #191a1ed7;
+   
+    ;
+ }
+ .iconfloat1:hover{
+    position: fixed;
+    top: 50%;
+    left: 32px;
+   color: goldenrod
     ;
  }
  .iconfloat2{
     position: fixed;
     top: 55%;
     left: 32px;
-    color:  #191a1ed7;
+    
+ }
+ .iconfloat2:hover{
+    position: fixed;
+    top: 55%;
+    left: 32px;
+    color: goldenrod;
  }
  
 
@@ -75,10 +98,10 @@
   
 }
 
-.parallax-container {
+/* .parallax-container {
     background-position: 50% 210px !important;
     height:3200px; 
-  }
+  } */
 
 .no-shadows {
     box-shadow: none!important;
@@ -92,7 +115,12 @@
   }
   
   .img1{
-    width: 200px  ;
+   border-radius: 50%;
+   max-height: 250px;
+   max-width: 250px;
+   margin: 2%;
+   margin-top: 44px;
+  
   }
 
   .content {
@@ -181,28 +209,26 @@
   }
 
 
-#fade1, #fade2, #fade3, #fade4, #fade5, #fade6, #fade7, #fade8 {
+#fade1, #fade2, #fade3, #fade4, #fade5, #fade6, #fade7, #fade8{
 display: none;
 }
 
 
-
+.iconwhite{
+    color: white;
+}
 .showcase{
     
   width: 100%;
-  height: 70vh;
-    background: #191a1e;
+  
+   
     border-radius: 3px;
     
 }
 
-
-
-img {
-    height: 44vh;
-    width: auto;
-   
-    margin: 45px 45px 45px 50px;
+.aboutme{
+    font-weight: 700;
+    
 }
 
 .innertitle{
@@ -226,11 +252,12 @@ img {
     font-size: large;
     margin: 50px 50px 50px 0px;
     text-align: left;
-    line-height: 2;
+    line-height: 1.4;
+  
 }
 .spangold {
     font-family: 'Montserrat', sans-serif;
-    color: rgb(235, 174, 22)
+    color: rgb(206, 186, 8);
 }
 .aboutmetitle {
     text-align: left;
@@ -238,10 +265,32 @@ img {
     font-weight: 500;
 }
 
-.boxx {
-    margin: 30px;
-}
 
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 500;
+    overflow: auto;
+}
+.slider {
+    position: absolute;
+    width: 80%;
+    top: 0;
+    height: 100%;
+    overflow: hidden;
+    transition: all 1s;
+   margin-left: 130px;
+   margin-top: 140px;
+  }
+  
+  .slider.close {
+    top: 100%;
+    height: 0;
+    ;
+  }
 /* background animation */
 
 @keyframes movingBackground {
@@ -294,3 +343,9 @@ img {
         transform: scaleY(1);
     }
 } */
+
+@media only screen and (max-width: 666px) {
+    .imgbox {
+        height: 20vh;
+    }
+  }

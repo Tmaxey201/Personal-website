@@ -114,3 +114,9 @@ $(function(){
   $('#fade8').fadeIn(1000); 
  });
 });
+
+
+$('.trigger, .slider').click(function() {
+  $('.slider').toggleClass('close');
+});
+
