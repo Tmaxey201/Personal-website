@@ -25,11 +25,14 @@
 }
 .lang1{
     margin-top: .1em;
+    right: 1em;
 }
 .lang{
-    padding-right: .4em;
+    padding-right: .3em;
     font-size: large;
     font-weight: 700;
+    right: .4em;
+    position: fixed;
    
 }
 
@@ -81,27 +84,40 @@
     color: goldenrod;
  }
  
-
+ .dehaze:hover {
+     color: rgb(212, 203, 118) ;
+    
+ }
 .lang:hover{
-    padding-right: .4em;
-    font-size: x-large;
+  color: rgb(212, 203, 118) ;
+   
     text-shadow: 1px 0 #888888;
     font-weight:bold;
 }
 
 .langright{
-    
-    margin-right: .4em;
+    color: #191a1e;
+    right: 2em;
+    margin-right: .3em;
+    font-weight: 900;
+}
+.langright2{
+    right: 4em;
+    color: #191a1e;
+    font-weight: 900;
 }
 .namelogo {
    font-weight: 700;
-  
+  position: fixed;
+  color: #191a1e;
 }
 
-/* .parallax-container {
-    background-position: 50% 210px !important;
-    height:3200px; 
-  } */
+.namelogo:hover {
+    font-weight: 700;
+   position: fixed;
+   color:  rgb(212, 203, 118) ;
+ }
+ 
 
 .no-shadows {
     box-shadow: none!important;
@@ -115,7 +131,7 @@
   }
   
   .img1{
-   border-radius: 50%;
+   border-radius: 5%;
    max-height: 250px;
    max-width: 250px;
    margin: 2%;
@@ -127,17 +143,7 @@
     padding: 16px;
   }
    
-  
-/* .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-  }
-   
-  
-  .sticky + .content {
-    padding-top: 102px;
-  } */
+
 
   
 .endless {
@@ -227,7 +233,10 @@ display: none;
 }
 
 .aboutme{
-    font-weight: 700;
+    font-weight: 900;
+    font-style: initial;
+    margin-bottom: 10%;
+   
     
 }
 
@@ -250,14 +259,15 @@ display: none;
 .aboutmetext{
     font-family: 'Montserrat', sans-serif;
     font-size: large;
-    margin: 50px 50px 50px 0px;
+    
     text-align: left;
     line-height: 1.4;
+    
   
 }
 .spangold {
     font-family: 'Montserrat', sans-serif;
-    color: rgb(206, 186, 8);
+    color: rgb(212, 203, 118);
 }
 .aboutmetitle {
     text-align: left;
@@ -279,17 +289,19 @@ display: none;
     position: absolute;
     width: 80%;
     top: 0;
-    height: 100%;
+    height: 89.1%;
     overflow: hidden;
     transition: all 1s;
-   margin-left: 130px;
-   margin-top: 140px;
+   left: 10%;
+   right: 10%;
+  margin-top: 140px;
+   background: #1e1f24;
   }
   
   .slider.close {
     top: 100%;
     height: 0;
-    ;
+   background: white;
   }
 /* background animation */
 
