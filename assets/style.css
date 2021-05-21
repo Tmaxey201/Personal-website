@@ -106,7 +106,7 @@ margin: .3em;
 }
 
 .carousel .carousel-item {
-    width:300px !important;}
+    width:250px !important;}
 
 .langright{
     color: #191a1e;
@@ -145,6 +145,10 @@ h4 {
     z-index: 200
   }
   
+  .page-footer {
+      margin-top: 15%;
+  }
+
   .codeIcons{
       margin-bottom: 10%;
       border-bottom: thick solid white;
@@ -158,6 +162,7 @@ h4 {
    max-width: 100px;
    
 }
+
 
 .contactme {
     margin-top: 5%;
@@ -337,7 +342,7 @@ display: none;
    left: 10%;
    right: 10%;
   margin-top: 140px;
-   background: #1e1f24;
+   background: #1e1f24 url("images/black.jpg");
   }
   .slider1 {
       height: 89.1%;
