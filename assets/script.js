@@ -2,7 +2,10 @@
   $(document).ready(function(){
     $('.parallax').parallax();
   });
-
+// carousel
+$(document).ready(function(){
+  $('.carousel').carousel();
+});
 // reload page
 function reloadPage()
 {
@@ -124,3 +127,8 @@ $('.trigger, .slider').click(function() {
   $('.slider').toggleClass('close');
 });
 
+$(document).ready(function(){
+  $(".trigger").click(function(){
+     $(".add_here").removeClass("slider1");
+  });
+});
