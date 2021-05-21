@@ -3,7 +3,11 @@
     $('.parallax').parallax();
   });
 
-
+// reload page
+function reloadPage()
+{
+location.reload();
+}
   // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
 
@@ -95,10 +99,10 @@ setTimeout(function(){
   $('#fade7').fadeIn(1500);  
 }, 22000);
 
-// onclick transition 
-// $(function() {                       //run when the DOM is ready
-//   $(".clickable").click(function() {  //use a class, since your ID gets mangled
-//     $('#fade4').parent().addClass("hideme");      //add the class to the clicked element
+// onclick transition   onclick to add class!
+// $(function() {                      
+//   $(".clickable").click(function() {  
+//     $('#fade4').parent().addClass("hideme");     
 //   });
 // });
 

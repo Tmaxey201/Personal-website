@@ -26,6 +26,7 @@
 .lang1{
     margin-top: .1em;
     right: 1em;
+    margin-right: 10px;
 }
 .lang{
     padding-right: .3em;
@@ -118,7 +119,9 @@
    color:  rgb(212, 203, 118) ;
  }
  
-
+h4 {
+    font-weight: 900;
+}
 .no-shadows {
     box-shadow: none!important;
 }
@@ -132,10 +135,9 @@
   
   .img1{
    border-radius: 5%;
-   max-height: 250px;
-   max-width: 250px;
-   margin: 2%;
-   margin-top: 44px;
+    padding-right: 2%;
+   max-width: 100%;
+  
   
   }
 
@@ -259,7 +261,7 @@ display: none;
 .aboutmetext{
     font-family: 'Montserrat', sans-serif;
     font-size: large;
-    
+    padding: 0 4% 0 4%;
     text-align: left;
     line-height: 1.4;
     
