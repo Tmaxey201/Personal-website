@@ -14,8 +14,17 @@
    
   }
 
+.mytext {
+    font-family: 'Montserrat', sans-serif;
+}
 
-  
+.footicon {
+margin: .3em;
+
+}
+.footicon2{
+    margin-top: 40px;
+}
 .backgroundimg{
     background-image: url(images/white.jpg);
     height: 100%;
@@ -96,9 +105,12 @@
     font-weight:bold;
 }
 
+.carousel .carousel-item {
+    width:300px !important;}
+
 .langright{
     color: #191a1e;
-    right: 2em;
+    right: 2.3em;
     margin-right: .3em;
     font-weight: 900;
 }
@@ -139,10 +151,25 @@ h4 {
       padding-bottom: 10%;
   }
 
+.div
 
+.img2{
+   margin: 0;
+   max-width: 100px;
+   
+}
 
+.contactme {
+    margin-top: 5%;
+    float: left;
+}
 
-  .img1{
+.img5 {
+   
+   max-width: 100px; 
+}
+
+.img1{
    
     padding-right: 2%;
    max-width: 100%;
