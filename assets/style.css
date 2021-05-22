@@ -376,40 +376,30 @@ overflow: hidden;
     background: #1e1f24!important;
 }
 #aboutme:hover {
-   
+    text-shadow: 1.3px 1.3px;
     cursor: pointer;
     margin-bottom: 9%;
 }
 
 #mywork:hover {
- 
+    text-shadow: 1.3px 1.3px;
     cursor: pointer;
     margin-bottom: 9%;
 }
  
 .aboutmeunderline {
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 1.2px 1.2px;
+  
 }
 .myworkunderline {
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
+    text-shadow: 1.2px 1.2px;
 
 }
+
+  
 
 @keyframes movingBackground {
     from { background-position: 0 0;}
     to {background-position: var(--backgroundSize) var(--backgroundSize);}
 }
-
-@-webkit-keyframes glow {
-    from {
-      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
-    }
-    to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff, 0 0 80px #ffffff;
-    }
-  }
 
