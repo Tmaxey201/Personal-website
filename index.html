@@ -4,6 +4,8 @@
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
+      <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
       <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
@@ -20,31 +22,50 @@
    <body class="backgroundimg">
       <div class="header" id="myHeader">
          <a href="#" class="namelogo ">Tom</a>
-         <a href="#" class="trigger clickable float right  lang1 lang"><i class="material-icons dehaze">dehaze</i></a>
-         <a href="#" class="float right lang2 lang  langright ">ES</a>
-         <a href="#" class="float right lang2 lang  langright2 ">EN</a>
+         <a href="#modal1" class="modal-trigger  float right  lang1 lang"><i class="material-icons dehaze">dehaze</i></a>
+         
+         
          <a href="https://www.instagram.com/tomtom6288/" class="iconfloat"><i class=" iconfloat fa fa-instagram fa-sm"></i></a>
          <a href="https://github.com/Tmaxey201" class="iconfloat1"> <i class=" iconfloat1 fa fa-github"></i></a>
          <a href="#" class="iconfloat2 "> <i class="iconfloat2 fa fa-linkedin"></i></a>
       </div>
+      
       <h1 class="col  endless" id="fade0">Develop</h1>
       <h1 class="col  endless1" id="fade1">Design</h1>
       <h1 class="col  endless2" id="fade2">Create</h1>
       <h1 class="col  endless3" id="fade3">Inspire</h1>
       <div class="content ">
          <div class="row center">
-            <div class="col s10 l10 offset-l1 endless4 " id="fade4">Welcome to my site. I'm Tom</div>
-            <div class="col s10 l10 offset-l1 endless5" id="fade5">Take a look at some of my work.</div>
-            <div class="col s10 l10 offset-l1 endless6" id="fade6">Let's create something awesome together.</div>
-            <button class=" trigger clickable waves-effect waves-light endless7 black" id="fade7"><i
+            <div class="col s10 l10 offset-l1 endless4 " id="fade4">
+               <p class="multipleStrings"></p>
+            </div>
+            <button class=" trigger clickable waves-effect order waves-light endless7 black" id="fade7"><i
                class=" material-icons white-text">keyboard_arrow_down</i></button>
          </div>
       </div>
+      <!-- Modal Trigger -->
+  
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content white-text">
+      <div class="row center">
+         <h4 class="col s12  white-text">Let's Keep in Touch</h4>
+         <div class="col s6 center"><img src="assets/images/tombrand.png" alt="" class="img5"></div>
+         <div class="col s6 center contactme">
+            <a href="mailto:tmaxey201@gmail.com" class="white-text">Tmaxey201@gmail.com
+            </a>
+            <div class="white-text">1-252-670-0908</div>
+         </div>
+      </div>
+    </div>
+    
+  </div>
       <div class="slider add_here close slider1 backgroundimg hidetab">
          <div class="container  id=">
             <div class="row center">
                <h2 class="col s16 l6 white-text aboutme aboutmeunderline" >About Me</h2>
-               <h2 class="col s16 l6 white-text  aboutme" id="mywork">My Work</h2>
+               <h3 class="col s16 l6 white-text  aboutme" id="mywork">My Work</h3>
             </div>
             <div class="row center">
                <div class="col s5 white-text">
@@ -53,16 +74,14 @@
                <div class="col s7 white-text">
                   <div class="row center">
                      <h4 class="white-text">Full Stack Devloper</h4>
-                     <!-- <h6 class="white-text">HTML, CSS, Javascript, jQuery, Node JS</h6> -->
                   </div>
                   <div class="row">
                      <p class=" white-text aboutmetext ">An up-and-coming Full Stack Web
                         <span class="spangold">Develop</span>er with a passion for
                         <span class="spangold"> design</span>ing and <span class="spangold">creating</span>
                         web pages. Specializing in Front End UX/UI development and interpersonal communication skills. With
-                        a combination of your <span class="spangold">ideas</span> and my expertise, let's bring your
+                        a combination of your <span class="spangold">ideas</span> and my expertise, I can bring your
                         project to life.
-                        
                   </div>
                </div>
             </div>
@@ -93,7 +112,6 @@
                <div class="col s6 white-text">
                   <div class="row center">
                      <h4 class="white-text">Globetrotter</h4>
-                     <!-- <h6 class="white-text">HTML, CSS, Javascript, jQuery, Node JS</h6> -->
                   </div>
                   <div class="row">
                      <p class=" white-text aboutmetext ">An avid traveler and explorer. Always day-<span
@@ -106,7 +124,6 @@
                </div>
                <div class="col s6 white-text">
                   <div class="carousel">
-                    
                      <a class="carousel-item" href="#four!"><img src="assets/images/tomtravel4.PNG"></a>
                      <a class="carousel-item" href="#five!"><img src="assets/images/tomtravel5.PNG"></a>
                      <a class="carousel-item" href="#five!"><img src="assets/images/tomtravel7.PNG"></a>
@@ -168,145 +185,98 @@
             </footer>
             </div>
          </div>
-<!-- this is my portfolio section -->
-   <div class="slider add_here close slider1 backgroundimg hidetab newdiv hidemenow">
-      <div class="container  id=">
-         <div class="row center">
-            <h2 class="col s16 l6 white-text aboutme" id="aboutme">About Me</h2>
-            <h2 class="col s16 l6 white-text myworkunderline aboutme" >My Work</h2>
-         </div>
-         <div class="row center">
-            <div class="col s5 white-text">
-               <img src="assets/images/tom.png" alt="" class="img1 img-responsive">
-            </div>
-            <div class="col s7 white-text">
+         <!-- this is my portfolio section -->
+         <div class="slider add_here close slider1 backgroundimg hidetab newdiv hidemenow">
+            <div class="container  id=">
                <div class="row center">
-                  <h4 class="white-text">Full Stack Devloper</h4>
-                  <!-- <h6 class="white-text">HTML, CSS, Javascript, jQuery, Node JS</h6> -->
+                  <h3 class="col s16 l6 white-text aboutme" id="aboutme">About Me</h3>
+                  <h2 class="col s16 l6 white-text myworkunderline aboutme" >My Work</h2>
                </div>
-               <div class="row">
-                  <p class=" white-text aboutmetext ">An up-and-coming Full Stack Web
-                     <span class="spangold">Develop</span>er with a passion for
-                     <span class="spangold"> design</span>ing and <span class="spangold">creating</span>
-                     web pages. Specializing in Front End UX/UI development and interpersonal communication skills. With
-                     a combination of your <span class="spangold">ideas</span> and my expertise, let's bring your
-                     project to life.
-                     
-               </div>
-            </div>
-         </div>
-         <div class="row center">
-            <div class="col s12  white-text">
-               <h4 class="codeIcons">
-                  <i class="white-text devicon-photoshop-plain"></i>
-                  <i class="white-text devicon-illustrator-plain"></i>
-                  <i class="white-text devicon-visualstudio-plain"></i>
-                  <i class="white-text devicon-html5-plain-wordmark"></i>
-                  <i class="white-text devicon-css3-plain-wordmark"></i>
-                  <i class="white-text evicon-javascript-plain"></i>
-                  <i class="white-text devicon-jquery-plain-wordmark"></i>
-                  <i class="white-text devicon-nodejs-plain"></i>
-                  <i class="white-text devicon-github-original-wordmark"></i>
-               </h4>
-            </div>
-         </div>
-         <div class="row center">
-            <div class="row center">
-               <h4 class="col s12  white-text aboutme bio">Biography</h4>
-               <p class=" white-text aboutmetext codeIcons "> Born and raised in a small eastern North Carolina town
-                  with only mother nature and a vivid <span class="spangold">imagination</span> to keep entertained.
-                  Currently living in Santo Domingo, Dominican Republic.
-                  Working as a Business Administrator for a local pre-school and daycare system for 8 years helped <span
-                     class="spangold">create</span> great interpersonal communication skills.
-            </div>
-            <div class="col s6 white-text">
                <div class="row center">
-                  <h4 class="white-text">Globetrotter</h4>
-                  <!-- <h6 class="white-text">HTML, CSS, Javascript, jQuery, Node JS</h6> -->
-               </div>
-               <div class="row">
-                  <p class=" white-text aboutmetext ">An avid traveler and explorer. Always day-<span
-                     class="spangold">dream</span>ing about the next vacation destination
-                     on the horizon. From Kuala Lumpur to Santo Domingo and everywhere in between, the world is my
-                     oyster and all I need is an <span class="spangold">idea</span> and a
-                     inkling to enjoy it. <span class="spangold">Inspiration</span> is easily found by seeing the world
-                     through a new lense at every opportunity.
-               </div>
-            </div>
-            <div class="col s6 white-text">
-               <div class="carousel">
-                 
-                  <a class="carousel-item" href="#four!"><img src="assets/images/tomtravel4.PNG"></a>
-                  <a class="carousel-item" href="#five!"><img src="assets/images/tomtravel5.PNG"></a>
-                  <a class="carousel-item" href="#five!"><img src="assets/images/tomtravel7.PNG"></a>
-                  <a class="carousel-item" href="#one!"><img src="assets/images/tomtravel.PNG"></a>
-                  <a class="carousel-item" href="#two!"><img src="assets/images/tomtravel2.PNG"></a>
-                  <a class="carousel-item" href="#three!"><img src="assets/images/tomtravel3.PNG"></a>
-               </div>
-            </div>
-         </div>
-         <div class="row center">
-            <div class="col s12  white-text">
-               <h5 class="codeIcons">
-                  <blockquote class="white-text">“Broad, wholesome, charitable views of men and things cannot be
-                     acquired by vegetating in one little corner of the earth all of one’s lifetime.” – Mark Twain
-                  </blockquote>
-               </h5>
-            </div>
-         </div>
-         <div class="row center">
-            <div class="col s5 white-text">
-               <div class="carousel">
-                  <a class="carousel-item" href="#one!"><img src="assets/images/biopic.PNG"></a>
-                  <a class="carousel-item" href="#two!"><img src="assets/images/biopic1.PNG"></a>
-                  <a class="carousel-item" href="#three!"><img src="assets/images/biopic2.PNG"></a>
-                  <a class="carousel-item" href="#four!"><img src="assets/images/biopic3.PNG"></a>
-               </div>
-            </div>
-            <div class="col s7 white-text">
-               <div class="row center">
-                  <h4 class="white-text">Interests</h4>
-                  <!-- <h6 class="white-text">HTML, CSS, Javascript, jQuery, Node JS</h6> -->
-               </div>
-               <div class="row">
-                  <p class=" white-text aboutmetext ">When I am not writing code I am more than likely <span
-                     class="spangold">exploring</span> a new destination, at the gym lifting weights, playing with my
-                     dog Geno, or even having a glass of fine whiskey. Reading a good book, writing whatever I see fit,
-                     and even <span class="spangold">immersing</span> myself in a video game are also hobbies I enjoy when
-                     there is time available. 
-                  </p>
-               </div>
-            </div>
-         </div>
-         <footer class="page-footer white">
-            <div class="container">
-               <div class="row center">
-                  <h4 class="col s12  white-text">Contact Me</h4>
-                  <div class="col s6 center"><img src="assets/images/tombrand.png" alt="" class="img5"></div>
-                  <div class="col s6 center contactme">
-                     <a href="mailto:tmaxey201@gmail.com" class="white-text">Tmaxey201@gmail.com
-                     </a>
-                     <div class="white-text">1-252-670-0908</div>
+                  <div class="col s12 white-text">
+                     <h4 class="col s12  white-text titletext">Global Gastronomy</h4>
+                     <p class="white-text titletext">A Recipe Application with Translation Feature</p>
+                     <a href="https://github.com/Tmaxey201/Recipe-with-translator"> <img src="assets/images/Recipescreenshot.PNG" alt="" class="img1 imglink  img-responsive"></a>
+                  </div>
+                  <div class="row center">
+                     <div class="col s12 white-text">
+                        <h4 class="col s12  white-text titletext borderline">Work day Schedule</h4>
+                        <p class="white-text titletext">A Scheduler to Plan Your Work day</p>
+                        <a href="https://github.com/Tmaxey201/Work-Day-Scheduler-"> <img src="assets/images/workdayschedulescreenshot.PNG" alt="" class="img1 imglink  img-responsive"></a>
+                     </div>
+                     <div class="row center">
+                        <div class="col s12 white-text">
+                           <h4 class="col s12  white-text titletext borderline">Code Quiz</h4>
+                           <p class="white-text titletext">A Timed Quiz to Test Your Coding Knowledge</p>
+                           <a href="https://github.com/Tmaxey201/Coding-quiz-challenge"> <img src="assets/images/codingquizscreenshot.PNG" alt="" class="img1 imglink  img-responsive"></a>
+                        </div>
+                     </div>
+                     <div class="row center">
+                        <div class="col s12 white-text">
+                           <h4 class="col s12  white-text titletext borderline">Password Generator</h4>
+                           <p class="white-text titletext">Create a Randomly Generated Password</p>
+                           <a href="https://github.com/Tmaxey201/Password-Generator-"> <img src="assets/images/passwordgen.PNG" alt="" class="img1 imglink  img-responsive"></a>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col s12 white-text">
+                     <h4 class="col s12  white-text titletext borderline">Let's Work Together!</h4>
+                     <p class="white-text titletext">
+                        
+   <div class="row">
+   <form class="col s12">
+     <div class="row">
+       <div class="input-field white-text col s6">
+         <i class="material-icons white-text prefix">account_circle</i>
+         <input id="icon_prefix" type="text" class="validate white-text">
+         <label for="icon_prefix">First Name</label>
+       </div>
+       <div class="input-field white-text col s6">
+         <i class="material-icons white-text prefix">phone</i>
+         <input id="icon_telephone" type="tel" class="validate white-text">
+         <label for="icon_telephone">Telephone</label>
+       </div>
+     </div>
+   </form>
+ </div><div class="row">
+                        <form class="col s12">
+                          <div class="row">
+                            <div class="input-field white-text col s12">
+                              <textarea id="textarea1" class="materialize-textarea white-text"></textarea>
+                              <label for="textarea1 white-text">Textarea</label>
+                            </div>
+                          </div>
+                        </form>
+                      </div></p>
                   </div>
                </div>
-               <div class="footer-copyright">
-                  <div class="container center white-text">
-                     © 2021 Code by Thomas Maxey
+            </div>
+                  <footer class="page-footer white">
+                     <div class="container">
+                        <div class="row center">
+                           <h4 class="col s12  white-text">Contact Me</h4>
+                           <div class="col s6 center"><img src="assets/images/tombrand.png" alt="" class="img5"></div>
+                           <div class="col s6 center contactme">
+                              <a href="mailto:tmaxey201@gmail.com" class="white-text">Tmaxey201@gmail.com
+                              </a>
+                              <div class="white-text">1-252-670-0908</div>
+                           </div>
+                        </div>
+                        <div class="footer-copyright">
+                           <div class="container center white-text">
+                              © 2021 Code by Thomas Maxey
+                           </div>
+                        </div>
+                  </footer>
                   </div>
                </div>
-         </footer>
+            </div>
          </div>
-      </div>
-
-     
-
-
-      </div>
-      </div>
       </div>
    </body>
    <!--JavaScript at end of body for optimized loading-->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
    <script src="assets/script.js"></script>
 </html>

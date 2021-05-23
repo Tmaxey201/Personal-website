@@ -1,4 +1,8 @@
+// modal
 
+$(document).ready(function(){
+  $('.modal').modal();
+});
   $(document).ready(function(){
     $('.parallax').parallax();
   });
@@ -28,99 +32,88 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
+// function for typewriter effect
+
+new TypeIt(".multipleStrings", {
+  strings: ["Welcome to my site.", "My name is Tom.", "Let me tell you a little about myself."],
+  speed: 50,
+  waitUntilVisible: true
+}).go();
 
 
 // function to fade in and fade out divs 
-// ----------------------------------------------------Aly Help please lol--------------------------------
-  // for(var i=0; i < 5; i++){
-  //  var idname = '#fade' + i
-  //  console.log(idname)
-   
-  // }
-  // setTimeout(function(){
-  //   $(idname).fadeIn(2000);  
-  // }, 1000);
-  
-  // function fadeIns() {
-    var i=2;
-    var idname = '#fade' + i
-    setInterval(
-    pleaseWork(idname,i)
-    ,500);   
-// }
-function pleaseWork(idname, i){
-  $(idname).fadeIn(2000); 
-  i++;
-  console.log(i)
+$(document).ready(function() {
+  window.setTimeout("fadeMyDiv();", 1000); //call fade in 2 seconds for #fade
 }
-// fadeIns()
-// -------------------------------------------------------------------------------
-// $(document).ready(function() {
-//   window.setTimeout("fadeMyDiv();", 1000); //call fade in 2 seconds for #fade
-// }
-// )
+)
 
-// function fadeMyDiv() { //fadeout #fade
-//   $("#fade").fadeOut(1500);
-// }
+$(document).ready(function() {
+  window.setTimeout("fadeMyDiv1();", 2000); 
+}
+)
 
-// setTimeout(function(){
-//   $('#fade1').fadeIn(2000);  //fade in fade1
-// }, 1000);
+$(document).ready(function() {
+  window.setTimeout("fadeMyDiv2();", 3750); //call fade in 3 seconds
+}
+)
 
+$(document).ready(function() {
+  window.setTimeout("fadeMyDiv3();", 6000); //call fade in 3 seconds
+}
+)
 
+function fadeMyDiv() { //fadeout #fade
+  $("#fade0").fadeOut(1000);
+}
 
-// function fadeMyDiv1() {
-//   $("#fade1").fadeOut(1500);  //fade out fade1
-// }
-
-// $(document).ready(function() {
-//   window.setTimeout("fadeMyDiv1();", 1000); 
-// }
-// )
-
-// function fadeMyDiv2() {
-//   $("#fade2").fadeOut(1500);  //fade out fade1
-// }
-
-// $(document).ready(function() {
-//   window.setTimeout("fadeMyDiv2();", 3000); //call fade in 3 seconds
-// }
-// )
+function fadeMyDiv1() {
+  $("#fade1").fadeOut(1000);  //fade out fade1
+}
 
 
-// setTimeout(function(){
-//   $('#fade2').fadeIn(1000);    
-// }, 3000);
+function fadeMyDiv2() {
+  $("#fade2").fadeOut(1000);  //fade out fade1
+}
+
+function fadeMyDiv3() {
+  $("#fade3").fadeOut(1000);  //fade out fade1
+}
+
+setTimeout(function(){
+  $('#fade1').fadeIn(1000);  //fade in fade1
+}, 1500);
+
+setTimeout(function(){
+  $('#fade2').fadeIn(1000);    
+}, 3250);
 
 
-// setTimeout(function(){
-//   $('#fade3').fadeIn(2000);  
-// }, 4000);
+setTimeout(function(){
+  $('#fade3').fadeIn(1000);  
+}, 5000);
 
-// $(document).ready(function() {
-//   window.setTimeout("fadeMyDiv3();", 4000); //call fade in 3 seconds
-// }
-// )
 
-// function fadeMyDiv3() {
-//   $("#fade3").fadeOut(2000);  //fade out fade1
-// }
-// setTimeout(function(){
-//   $('#fade4').fadeIn(3000);  
-// }, 6000);
 
-// setTimeout(function(){
-//   $('#fade5').fadeIn(3000);  
-// }, 7500);
 
-// setTimeout(function(){
-//   $('#fade6').fadeIn(3000);  
-// }, 9000);
 
-// setTimeout(function(){
-//   $('#fade7').fadeIn(1500);  
-// }, 11000);
+
+
+
+setTimeout(function(){
+  $('#fade4').fadeIn(3000);  
+}, 6000);
+
+setTimeout(function(){
+  $('#fade5').fadeIn(3000);  
+}, 7500);
+
+setTimeout(function(){
+  $('#fade6').fadeIn(3000);  
+}, 9000);
+
+setTimeout(function(){
+  $('#fade7').fadeIn(1500);  
+}, 11000);
 
 // onclick transition   onclick to add class!
 // $(function() {                      
