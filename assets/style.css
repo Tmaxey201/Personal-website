@@ -3,7 +3,11 @@
 	font-weight: 700;
 }
 
-* {
+.iconcolor {
+	color: #191a1e;
+}
+
+body{
 	font-family: 'Montserrat', sans-serif;
 	color: #191a1e;
 	margin: 0;
