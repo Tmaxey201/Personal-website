@@ -35,7 +35,7 @@ function myFunction() {
 // function for typewriter effect
 
 new TypeIt(".multipleStrings", {
-  strings: ["Welcome to my site.", "My name is Tom.", "Let me tell you a little about myself."],
+  strings: ["Welcome to my site.", "I'm Tom.", "Feel free to take a look around."],
   speed: 50,
   waitUntilVisible: true
 }).go();
