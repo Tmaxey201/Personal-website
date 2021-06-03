@@ -478,3 +478,7 @@ h4 {
 		background-position: var(--backgroundSize) var(--backgroundSize);
 	}
 }
+
+@media screen and (max-width: 450px) {
+	#iconhide { display: block; } 
+  }
